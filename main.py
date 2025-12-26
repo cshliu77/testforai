@@ -40,5 +40,6 @@ if __name__ == '__main__':
         print(f"The product of {num1} and {num2} is {multiplicationMethod(int(num1), int(num2))}")
 
     else:
-        print("Unsupported operator.")
+        print("Unsupported operator.[" + operator + "]")
+
     
