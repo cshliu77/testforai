@@ -1,5 +1,5 @@
 import sys
-
+# 匯入 sys 模組，用於存取命令列參數
 def additionMethod(num1, num2):
     return num1 + num2
 
