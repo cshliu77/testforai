@@ -5,10 +5,15 @@ def hello_world_zh():
     print("哈囉！世界！")
 def additionMethod(num1, num2):
     return num1 + num2
+
 def subtractionMethod(num1 ,num2):
     return num1 - num2
 def divisionMethod(num1 ,num2):
     return num1 / num2
+
+
+def multiplicationMethod(num1, num2):
+    return num1 * num2
 
 
 if __name__ == '__main__':
@@ -24,10 +29,15 @@ if __name__ == '__main__':
 
     if operator == '+':
         print(f"The sum of {num1} and {num2} is {additionMethod(int(num1), int(num2))}")
+
     elif operator == '-':
         print(f"The difference of {num1} and {num2} is {subtractionMethod(int(num1), int(num2))}")
     elif operator == '/':
         print(f"The division of {num1} by {num2} is {divisionMethod(int(num1), int(num2))}")
+
+
+    elif operator == '*':
+        print(f"The product of {num1} and {num2} is {multiplicationMethod(int(num1), int(num2))}")
 
     else:
         print("Unsupported operator.")
